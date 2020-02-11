@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 100%;
+  justify-content: center;
+  width: 500px;
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.Logo {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  height: 5%;
+  width: auto;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.Title {
+  color: rgb(100, 185, 154);
+}
+
+textarea {
+  height: 250px;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-family: "Space Mono", Courier, sans-serif;
+  font-weight: 400;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  padding: 14px 24px;
+  border-radius: 3px;
+}
+
+button {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  line-height: 1.5;
+  color: rgb(153, 100, 103);
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.8rem;
+  border-radius: 2rem;
+  transition: background-color 0.15s ease-in-out 0s, transform 0.2s ease-in-out 0s, border 0.15s ease-in-out 0s, transform 0.2s ease-in-out 0s;
+  background: rgb(255, 169, 211);
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255, 169, 211);
+  border-image: initial;
+  margin: 0px;
+  padding: 0.6rem 1rem;
+}
