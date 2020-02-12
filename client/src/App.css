@@ -23,7 +23,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: auto;
+}
+
+.Form:first-child {
+  margin-bottom: 15%;
 }
 
 .Title {
@@ -31,7 +34,9 @@
 }
 
 textarea {
-  height: 250px;
+  min-height: 150px;
+  height: auto;
+  max-height: 250px;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   font-size: 1rem;
